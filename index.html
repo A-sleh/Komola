@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <!-- swiper style css  -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- the font awosem page css-->
+    <link rel="stylesheet" href="./src/all.min.css">
+    <title>Learn more About  Us </title>
+</head>
+<body class="bg-secondary">
+    <!-- header -->
+    <header class="bg-header relative h-[90vh] bg-center text-white before:bg-primary-hover layer-trans z-10">
+      <div class="container flex justify-center items-center flex-col h-full">
+          <h1 class="h1 text-2xl md:text-3xl w-[85%] md:w-[45%] text-center leading-[30.2px] mb-[10px]">
+            A good website can make you a million. First you need make a website
+          </h1>
+          <p class="w-[70%] md:w-1/3 leading-[22.2px] text-[12px] text-center mb-[20px]" >
+            Let your users sell or rent goods, spaces or services online. Set up your site in no time. You don't need a developer.
+          </p>
+          <button class="btn-sm text-sm transition-all duration-500">
+            watch vedio
+          </button>
+      </div>
+    </header>
+    <!-- end header -->
+    
+    <!-- nav  -->
+    <nav class="h-[11vh] hidden sm:block sticky top-0 z-[10000] shadow-lg bg-white">
+      <div class="container justify-between p-[20px] items-center flex">
+        <!-- logo  -->
+        <img src="./img/logo.jpg" alt="" width="150px">
+        <!-- links  -->
+        <ul class="flex gap-x-[5px]">
+          <li class="btn-sm2 active-btn "><a href="#">Home</a></li>
+          <li class="btn-sm2 hover:bg-primary hover:text-white"><a href="#">our services</a></li>
+          <li class="btn-sm2 hover:bg-primary hover:text-white"><a href="#">vedio</a></li>
+          <li class="btn-sm2 hover:bg-primary hover:text-white"><a href="#">pricing</a></li>
+          <li class="btn-sm2 hover:bg-primary hover:text-white"><a href="#">blog</a></li>
+          <li class="btn-sm2 hover:bg-primary hover:text-white"><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="md:hidden sticky top-0 shadow-lg z-[10000] bg-white">
+      <div class="container justify-between p-[20px] items-center flex ">
+        <!-- links  -->
+        <ul class="flex flex-col absolute menu shadow-xl tracking-[0.5px] close" id="nav__list">
+          <!-- logo  -->
+          <img src="./img/logo.jpg" alt="" width="150px" class="self-center mb-[20px]">
+          <li class="btn-sm3"><a href="#">Home</a></li>
+          <li class="btn-sm3"><a href="#">our services</a></li>
+          <li class="btn-sm3"><a href="#">vedio</a></li>
+          <li class="btn-sm3"><a href="#">pricing</a></li>
+          <li class="btn-sm3"><a href="#">blog</a></li>
+          <li class="btn-sm3"><a href="#">contact</a></li>
+        </ul>
+        <!-- burger menu  -->
+        <div class="w-[30px] h-[26px] flex flex-col justify-around cursor-pointer smooth" id="burger__menu">
+          <span class="w-full h-[4px] bg-gray-500 rounded-[1px] smooth "></span>
+          <span class="w-full h-[4px] bg-gray-500 rounded-[1px] smooth "></span>
+          <span class="w-full h-[4px] bg-gray-500 rounded-[1px] smooth " ></span>
+        </div>
+        <!-- logo  -->
+        <img src="./img/logo.jpg" alt="logo" width="100px" >
+      </div>
+    </nav>
+    <!-- end nav  -->
+
+    <!-- services  -->
+    <section class="services mt-[50px] mb-[17vh]">
+      <div class="container">
+        <!-- main compnents  -->
+        <div class="text-center mx-auto flex flex-col items-center justify-center">
+          <h1 class="text-4xl font-bold uppercase text-primary mb-[15px]">our services</h1>
+          <p class="text-[12px] px-[20px] font-thin tracking-[0.3px] mb-[20px] xl:w-[40%] leading-5">
+            Sharetribe's built-in payment system allows your merchants to accept both PayPal and all of major credit cards.
+          </p>
+          <div class="relative w-[150px] h-[1px] bg-gray-300 circel-1 circel-2 "></div>
+        </div>
+        <!-- our services  -->
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-[40px]">
+          <!-- item  -->
+          <div class="flex flex-col items-center p-[20px]">
+            <img src="./img/retina_orange.png" alt="img" width="50px">
+            <h2 class="text-primary text-2xl my-4">Retina Display</h2>
+            <p class="text-center text-sm w-[90%] md:w-full">ONE is still the same beautiful theme on every possible viewport, assuring that every pixel will always respond perfectly.</p>
+          </div>
+          <!-- item  -->
+          <div class="flex flex-col items-center p-[20px]">
+            <img src="./img/seo_black.png" alt="img" width="50px">
+            <h2 class="text-2xl my-4">SEO Optimized</h2>
+            <p class="text-center text-sm w-[90%] md:w-full">ONE is still the same beautiful theme on every possible viewport, assuring that every pixel will always respond perfectly.</p>
+          </div>
+          <!-- item  -->
+          <div class="flex flex-col items-center p-[20px]">
+            <img src="./img/animation_black.png" alt="img" width="50px">
+            <h2 class="text-2xl my-4">Clean Modern Code</h2>
+            <p class="text-center text-sm w-[90%] md:w-full">ONE is still the same beautiful theme on every possible viewport, assuring that every pixel will always respond perfectly.</p>
+          </div>
+          <!-- item  -->
+          <div class="flex flex-col items-center p-[20px]">
+            <img src="./img/clean_black.png" alt="img" width="50px">
+            <h2 class="text-2xl my-4">Google Fonts</h2>
+            <p class="text-center text-sm w-[90%] md:w-full">ONE is still the same beautiful theme on every possible viewport, assuring that every pixel will always respond perfectly.</p>
+          </div>
+          <!-- item  -->
+          <div class="flex flex-col items-center p-[20px]">
+            <img src="./img/google_black.png" alt="img" width="50px">
+            <h2 class="text-2xl my-4">Fully Responsive</h2>
+            <p class="text-center text-sm w-[90%] md:w-full">ONE is still the same beautiful theme on every possible viewport, assuring that every pixel will always respond perfectly.</p>
+          </div>
+          <!-- item  -->
+          <div class="flex flex-col items-center p-[20px]">
+            <img src="./img/responsive_black.png" alt="img" width="30px">
+            <h2 class="text-2xl my-4">Retina Display</h2>
+            <p class="text-center text-sm w-[90%] md:w-full">ONE is still the same beautiful theme on every possible viewport, assuring that every pixel will always respond perfectly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services  -->
+
+    <!-- video section  -->
+    <section class="video bg-team w-full h-[60vh] relative layer-trans bg-top bg-cover before:bg-secondarLayout before:z-10">
+      <div class="container flex justify-center items-center h-full">
+        <a href="#" class="z-20 cursor-pointer">
+          <img src="./img/video_button.png" alt="" >
+        </a>
+      </div>
+    </section>
+    <!-- end video section  -->
+
+    <!-- Simple pricing  -->
+    <section class="Simple__pricing px-[5px] py-[10px] md:p-[30px]  mb-[40px]">
+      <div class="container p-10 flex flex-col bg-white rounded-sm">
+        <!-- main compnents  -->
+        <div class="text-center mx-auto flex flex-col items-center justify-center mb-[50px] ">
+          <h1 class="text-4xl font-bold uppercase text-primary mb-[15px]">Simple pricing</h1>
+          <p class="text-[12px] px-[20px] font-thin tracking-[0.3px] mb-[20px] xl:w-[85%] leading-5">
+            Sharetribe's built-in payment system allows your merchants to accept bPayPal and all of major credit cards.
+          </p>
+          <div class="relative w-[150px] h-[1px] bg-gray-300 circel-1 circel-2 "></div>
+        </div>
+        <!-- cards  -->
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-10 md:gap-y-0">
+          <!-- card  -->
+          <div class="flex flex-col shadow-lg justify-center items-center  py-10 h-fit cursor-pointer hover:border hover:border-primary transition-all duration-500 group">
+            <h2 class="text-3xl font-semibold mb-[20px] text-primary">Free</h2>
+            <h3 class=" text-6xl font-semibold mb-[20px] bg-gray-300 w-full text-center py-[10px] unit group-hover:bg-primary group-hover:text-white transition-all duration-500">0$</h3>
+            <p class="text-center px-[20px] w-[70%] text-sm leading-9">Up to 300 members Unlimited traffic & storage* No transaction fees** No support 10 GB Monthly Bandwitdh Limited Users 100 limited Domains 100 limited Emails </p>
+            <button class="mt-[15px] px-[35px] py-[10px] border border-primary rounded-md text-white bg-primary hover:bg-white hover:text-primary transition-all duration-300">Get Started</button>
+          </div>
+          <!-- card  -->
+          <div class="flex flex-col shadow-lg justify-center items-center  py-10 h-fit cursor-pointer hover:border hover:border-primary transition-all duration-500 group">
+            <h2 class="text-3xl font-semibold mb-[20px] text-primary">Starter</h2>
+            <h3 class=" text-6xl font-semibold mb-[20px] bg-gray-300 w-full text-center py-[10px] unit group-hover:bg-primary group-hover:text-white transition-all duration-500">19$</h3>
+            <p class="text-center px-[20px]  w-[70%] text-sm leading-9">Up to 300 members Unlimited traffic & storage* No transaction fees** No support 10 GB Monthly Bandwitdh Limited Users 100 limited Domains 100 limited Emails </p>
+            <button class="mt-[15px] px-[35px] py-[10px] border border-primary rounded-md text-white bg-primary hover:bg-white hover:text-primary transition-all duration-300">Get Started</button>
+          </div>
+          <!-- card  -->
+          <div class="flex flex-col shadow-lg justify-center items-center  py-10 h-fit cursor-pointer hover:border hover:border-primary transition-all duration-500 group">
+            <h2 class="text-3xl font-semibold mb-[20px] text-primary">Pro</h2>
+            <h3 class=" text-6xl font-semibold mb-[20px] bg-gray-300 w-full text-center py-[10px] unit group-hover:bg-primary group-hover:text-white transition-all duration-500">39$</h3>
+            <p class="text-center px-[20px]  w-[70%] text-sm leading-9">Up to 300 members Unlimited traffic & storage* No transaction fees** No support 10 GB Monthly Bandwitdh Limited Users 100 limited Domains 100 limited Emails </p>
+            <button class="mt-[15px] px-[35px] py-[10px] border border-primary rounded-md text-white bg-primary hover:bg-white hover:text-primary transition-all duration-300">Get Started</button>
+          </div>
+          <!-- card  -->
+          <div class="flex flex-col shadow-lg justify-center items-center  py-10 h-fit cursor-pointer hover:border hover:border-primary transition-all duration-500 group">
+            <h2 class="text-3xl font-semibold mb-[20px] text-primary">Growth</h2>
+            <h3 class=" text-6xl font-semibold mb-[20px] bg-gray-300 w-full text-center py-[10px] unit group-hover:bg-primary group-hover:text-white transition-all duration-500">49$</h3>
+            <p class="text-center px-[20px]  w-[70%] text-sm leading-9">Up to 300 members Unlimited traffic & storage* No transaction fees** No support 10 GB Monthly Bandwitdh Limited Users 100 limited Domains 100 limited Emails </p>
+            <button class="mt-[15px] px-[35px] py-[10px] border border-primary rounded-md text-white bg-primary hover:bg-white hover:text-primary transition-all duration-300">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Simple pricing  --> 
+
+    <!-- our notes  -->
+    <section class="notes w-full h-[60vh] relative layer-trans before:bg-secondarLayout bg-center  bg-services before:z-10 -z-10 mb-12">
+      <div class="container flex flex-col items-center justify-center text-white   h-full z-20 relative">
+        <h3 class="mb-3 text-2xl md:text-3xl">We Are Ready to Help You</h3>
+        <h1 class="mb-5 text-3xl md:text-4xl text-center font-semibold">Get the Best Solution for Your Business</h1>
+        <button class="py-[5px] px-[10px] border rounded-md text-[13px] uppercase">Get Started</button>
+      </div>
+    </section>
+    <!-- end our notes  -->
+    
+    <!-- our projects  -->
+    <section class="Simple__pricing px-[5px] py-[10px] md:p-[30px]  mb-[40px]">
+      <div class="container p-10 flex flex-col bg-white rounded-sm items-center justify-center">
+        <!-- main compnents  -->
+        <div class="text-center mx-auto flex flex-col items-center justify-center mb-[50px] ">
+          <h1 class="text-4xl font-bold uppercase text-primary mb-[15px]">Lastest projects</h1>
+          <p class="text-[12px] px-[20px] font-thin tracking-[0.3px] mb-[20px] xl:w-[85%] leading-5">
+            Sharetribe's built-in payment system allows your merchants to accept bPayPal and all of major credit cards.
+          </p>
+          <div class="relative w-[150px] h-[1px] bg-gray-300 circel-1 circel-2 "></div>
+        </div>
+        <ul class="flex justify-center items-center gap-x-11 mb-[40px] font-extralight flex-wrap gap-y-2 md:gap-y-0" id="projects-list">
+          <li class="transition-all duration-300 active cursor-pointer" data-type="All">All</li>
+          <li class="transition-all duration-300 before:content-['/'] before:z-50 cursor-pointer before:left-[-23px] before:absolute relative" data-type="web desing">web desing</li>
+          <li class="transition-all duration-300 before:content-['/'] before:z-50 cursor-pointer before:left-[-23px] before:absolute relative" data-type="Branding">Branding</li>
+          <li class="transition-all duration-300 md:before:content-['/'] before:z-50 cursor-pointer before:left-[-23px] before:absolute relative " data-type="Photography" >Photography</li>
+        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4" id="projects-imges">
+            <img src="./img/img_01.png" alt="serv" data-type="Branding" class="transition-all duration-500">
+            <img src="./img/img_02.png" alt="serv" data-type="Photography" class="transition-all duration-500">
+            <img src="./img/img_03.png" alt="serv" data-type="Branding" class="transition-all duration-500">
+            <img src="./img/img_04.png" alt="serv" data-type="Branding" class="transition-all duration-500">
+            <img src="./img/img_05.png" alt="serv" data-type="Photography" class="transition-all duration-500">
+            <img src="./img/img_06.png" alt="serv" data-type="web desing" class="transition-all duration-500">
+        </div>
+      </div>
+    </section>
+    <!-- end our projects  -->
+
+    <!-- information -->
+    <section class="information flex flex-col md:flex-row h-[100vh] md:h-[80vh] z-10 w-full relative" >
+
+      <div class="relative w-full md:w-1/2 layer-trans before:bg-primary-hover text-white bg-customer_1 z-10 h-[80vh]">
+        <div class="container flex flex-col items-center justify-center h-full relative">
+            <h1 class="text-4xl font-bold mb-5 ">HAPPY CUSTOMERS</h1>
+            <div class="relative w-full md:w-[70%] h-1/2 overflow-hidden mx-auto mb-0 md:mb-[-25%]" id="slider">
+              <!-- Slide 1 -->
+              <div class="absolute left-0 top-0 flex flex-col items-center justify-center gap-y-2 transition-all duration-500">
+                <p class="text-sm w-[90%] text-center mx-auto">Ipsum is simply dummy text of the printtypesetting industry. Lorem Ipsum has bindustry's standard dummy text ever since the “”</p>
+                <img src="./img/customer.png" alt="" width="60px"class="mx-auto mt-2">
+              </div>
+              <!-- Slide 2 -->
+              <div class="absolute left-0 top-0 flex flex-col items-center justify-center gap-y-2 transition-all duration-500">
+                <p class="text-sm w-[90%] text-center mx-auto">Ipsum is simply dummy text of the printtypesetting industry. Lorem Ipsum has bindustry's standard dummy text ever since the “”</p>
+                <img src="./img/customer.png" alt="" width="60px"class="mx-auto mt-2">
+              </div>
+              <!-- Slide 3 -->
+              <div class="absolute left-0 top-0 flex flex-col items-center justify-center gap-y-2 transition-all duration-500">
+                <p class="text-sm w-[90%] text-center mx-auto">Ipsum is simply dummy text of the printtypesetting industry. Lorem Ipsum has bindustry's standard dummy text ever since the “”</p>
+                <img src="./img/customer.png" alt="" width="60px"class="mx-auto mt-2">
+              </div>
+
+            </div>
+            <div id="polits" class="flex gap-x-1 justify-center items-center absolute bottom-12 md:bottom-32 cursor-pointer">
+            </div>
+        </div> 
+      </div>
+
+      <div class=" bg-customer_2 w-full md:w-1/2 layer-trans relative z-10 before:bg-secondarLayout text-white h-[80vh]">
+        <div class="container flex flex-col items-center justify-center h-full ">
+          <h1 class="text-4xl font-bold mb-5 ">SUBSCRIBE</h1>
+          <form class="flex flex-col w-[60%] ">
+            <input type="text" placeholder="Enter Your Email" class="p-3 py-[8px] text-sm bg-transparent border rounded-md mb-5 focus:outline-none">
+            <button type="submit" class="border border-primary bg-primary px-[10px]
+            py-[5px] w-fit rounded-md mx-auto text-sm transition-all duration-300 hover:text-white hover:bg-transparent">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+    <!-- end information -->
+    
+    <!-- contact us  -->
+    <section class="contact px-[5px] py-[10px] md:p-[30px] mb-[40px]">
+      <div class="container p-5 md:p-10 flex flex-col bg-white rounded-sm items-center justify-center">
+        <!-- main compnents  -->
+        <div class="text-center mx-auto flex flex-col items-center justify-center mb-[50px] ">
+          <h1 class="text-4xl font-bold uppercase text-primary mb-[15px]">CONTACT US</h1>
+          <p class="text-[12px] px-[20px] font-thin tracking-[0.3px] mb-[20px] xl:w-[85%] leading-5">
+            Sharetribe's built-in payment system allows your merchants to accept bPayPal and all of major credit cards.
+          </p>
+          <div class="relative w-[150px] h-[1px] bg-gray-300 circel-1 circel-2 "></div>
+        </div>
+        <!-- main input form  -->
+        <form class="flex flex-col w-full gap-y-5 md:gap-y-5 h-fit">
+          <section class="flex flex-col md:flex-row w-full md:mb-5 md:gap-x-4 gap-y-4 md:gap-y-0">
+            <input type="text" placeholder="First Name" class="p-4 w-full md:w-1/2 border rounded-md">
+            <input type="text" placeholder="Last Name" class="p-4 w-full md:w-1/2 border rounded-md">
+          </section>
+          <section class="flex flex-col md:flex-row w-full md:mb-5 md:gap-x-4 gap-y-4 md:gap-y-0">
+            <input type="text" placeholder="Subject" class="p-4 w-full md:w-1/2 border rounded-md">
+            <input type="email" placeholder="Email" class="p-4 w-full md:w-1/2 border rounded-md">
+          </section>
+          <textarea placeholder="Your Massge" class="p-4 w-full border rounded-md mb-5 h-72"></textarea>
+          <button type="submit" class="btn-sm bg-primary w-fit text-white mx-auto border transition-all duration-300 hover:border hover:border-primary hover:text-primary font-bold ">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- end contact us  -->
+
+    <!-- footer  -->
+    <footer class="footer bg-footer p-14 relative h-fit ">
+      <div class="container flax flex-col">
+        <!-- main footer  -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-footer gap-y-8 md:gap-y-0 relative z-10">
+          <!-- item 1  -->
+          <div class="flex flex-col ">
+            <h1 class="text-2xl text-white mb-10">ABOUT US </h1>
+            <img src="./img/logo_footer.png" alt="logo" width="180px" class="mb-3">
+            <p class="text-gray-300 text-sm font-medium leading-6 w-full md:w-[65%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+          </div>
+          <!-- item 2  -->
+          <div class="flex flex-col">
+            <h1 class="text-2xl text-white mb-10">Get in touch  </h1>
+            <p class="text-gray-300 text-sm font-medium leading-5 w-full md:w-[80%] mb-4">Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ind </p>
+            <ul class="flex flex-col gap-y-1">
+              <li class="flex justify-start items-center">
+                <img src="./img/location.png" alt="">
+                <span class="ml-3 text-gray-300 text-sm">84 Street, City, State 24813</span>
+              </li>
+              <li class="flex justify-start items-center">
+                <img src="./img/phone.png" alt="">
+                <span class="ml-3 text-gray-300 text-sm">+00 (123) 456 78 90</span>
+              </li>
+              <li class="flex justify-start items-center">
+                <img src="./img/messege.png" alt="">
+                <span class="ml-3 text-gray-300 text-sm">info@komola.com</span>
+              </li>
+            </ul>
+          </div>
+          <!-- item 3  -->
+          <div class="flex flex-col">
+            <h1 class="text-2xl text-white mb-10">Latest works  </h1>
+            <div class="flex flex-col gap-y-2">
+              <div class="flex gap-x-2">
+                <img src="./img/mini_01.png" alt="">
+                <img src="./img/mini_02.png" alt="">
+              </div>
+              <div class="flex gap-x-2">
+                <img src="./img/mini_03.png" alt="">
+                <img src="./img/mini_04.png" alt="">
+
+              </div>
+            </div>
+          </div>
+          <!-- item 4  -->
+          <div class="flex flex-col">
+            <h1 class="text-2xl text-white mb-10">Subscribe </h1>
+            <p class="text-gray-300 text-sm font-medium leading-6 mb-4">Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum has</p>
+            <form class="flex relative mb-12">
+              <input type="email" placeholder="Enter Your Email Address" class="p-3 bg-gray-400/30 text-sm rounded-md w-full absolute focus:outline-none text-white">
+              <button type="submit" class="p-3 bg-primary rounded-md text-sm text-white absolute right-0 transition-all duration-300 hover:bg-white  hover:text-primary font-semibold ">Subscrib</button>
+            </form>
+            <ul class="flex justify-around items-center text-2xl mt-3">
+              <li class="p-3 border rounded-md cursor-pointer text-white hover:text-twitter hover:border-twitter transition-all duration-300"><i class="fab fa-twitter"></i></li>
+              <li class="p-3 px-4 border rounded-md cursor-pointer text-white hover:border-facebook hover:text-facebook transition-all duration-300"><i class="fab fa-facebook-f"></i></li>
+              <li class="p-3 border rounded-md cursor-pointer text-white hover:text-youtube hover:border-youtube transition-all duration-300"><i class="fab fa-youtube"></i></li>
+              <li class="p-3 border rounded-md cursor-pointer text-white hover:border-linkedin hover:text-linkedin  transition-all duration-300 px-4"><i class="fab fa-linkedin"></i></li>
+            </ul>
+          </div>
+          
+        </section>
+        <!-- secondar footer  -->
+        <section class="bg-footerSecondary h-[50px] absolute -bottom-7 left-0 w-full  p-3 ">
+          <p class="text-white mx-auto w-full text-center text-sm">© 2014 KOMOLA. All rights reserved.</p>
+        </section>
+      </div>
+    </footer>
+   
+    <!-- script  -->
+    <script src="./javascript/main.js"></script>
+</body>
+</html>

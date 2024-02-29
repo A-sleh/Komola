@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply relative w-[320px] h-[320px] bg-rose-400 p-[30px] rounded-md 
+    hover:h-[200px] transition-all duration-300
+}
+.action {
+    @apply hover:mt-[-240px] hover:rounded-b-xl border-b border-white
+}
+.h1 {
+    @apply font-semibold 
+}
+.btn-sm {
+    @apply px-[40px] py-[10px] border border-white rounded-[10px] hover:text-primary-hover hover:bg-white
+}
+.btn-sm2 {
+    @apply px-[10px] py-[5px] rounded transition-all duration-300 uppercase font-semibold text-sm 
+}
+.btn-sm3 {
+    @apply border-b pb-[15px] pl-[20px] cursor-pointer transition-all duration-300  hover:bg-primary-hover pt-[16px] hover:text-white
+}
+.active-btn {
+    @apply bg-primary text-white
+}
+.layer-trans {
+    @apply before:w-full before:h-full before:absolute before:top-0 before:left-0 before:z-[-1] 
+}
+.menu {
+    @apply top-[66px] h-screen pt-[20px] w-[60%] bg-white transition-all duration-500
+}
+.open {
+    @apply left-0
+}
+.close {
+    @apply -left-[500px]
+}
+.smooth {
+    @apply transition-all duration-500
+}
+.circel-1 {
+    @apply before:absolute before:w-[10px] before:h-[10px] before:border
+    before:rounded-full before:border-gray-300 before:left-[-10px] before:top-[-5px]
+}
+.circel-2 {
+    @apply after:absolute after:w-[10px] after:h-[10px] after:border
+    after:rounded-full after:border-gray-300 after:right-[-10px] after:top-[-5px]
+}
+.unit {
+    @apply after:content-['/mo'] after:text-xl
+}
+.active {
+    @apply text-white bg-primary px-[15px] py-[2px] rounded-md before:text-black
+}
+.pol-active {
+    @apply bg-sky-300
+}
